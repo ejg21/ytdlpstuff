@@ -1,16 +1,15 @@
 {
-    "name": "ytdlp-web",
-    "scripts": {
-        "dev": "bun run --hot src/index.ts"
-    },
-    "dependencies": {
-        "hono": "^4.6.10"
-    },
-    "devDependencies": {
-        "@types/bun": "latest"
-
-    },
-    "npm": {
-        "10.x"    
-    }
+  "name": "ytdlp-web",
+  "scripts": {
+    "dev": "bun run --hot src/index.ts"
+  },
+  "dependencies": {
+    "hono": "^4.6.10"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "engines": {
+    "npm": ">=10.0.0 <11.0.0"
+  }
 }
