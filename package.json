@@ -8,5 +8,9 @@
     },
     "devDependencies": {
         "@types/bun": "latest"
+
+    },
+    "npm": {
+        "10.x"    
     }
 }
